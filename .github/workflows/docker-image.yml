@@ -1,0 +1,43 @@
+name: Automatisation du déploiement du container sur DockerHub
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Scanner du code
+      uses: actions/checkout@v3
+    - name: Authentification à DockerHub
+      uses: docker/login-action@v1
+      with:
+        username: ${{ secrets.USERNAME_DOCKERHUB }}
+        password: ${{ secrets.TOKEN_DOCKERHUB }}
+    - name: Ckecking des Lint errors avec Hadolint for AlertManager Dockerfile
+      uses: hadolint/hadolint-action@v3.1.0
+      with:
+        dockerfile: ./Docker/AlertManagerDocker/Dockerfile
+    - name: Ckecking des Lint errors avec Hadolint for Dataviz Dockerfile
+      uses: hadolint/hadolint-action@v3.1.0
+      with:
+        dockerfile: ./Docker/DataVizDocker/Dockerfile
+    - name: Construction du container alert-Manager-micro-service
+      uses: docker/build-push-action@v2
+      with:
+        context: ./Docker/AlertManagerDocker/
+        push: true
+        tags: frimpongefrei/peacewatcher-alerts-manager-microservice:v1.0.0
+        
+    - name: Construction du container dataviz-micro-service
+      uses: docker/build-push-action@v2
+      with:
+        context: ./Docker/DataVizDocker
+        push: true
+        tags: frimpongefrei/peacewatchers-dataviz-micro-service:v1.0.0
