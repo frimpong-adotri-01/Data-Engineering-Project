@@ -1,0 +1,6 @@
+boto3==1.26.142
+streamlit==1.22.0
+kafka-python==2.0.2
+plotly==5.14.1
+streamlit-lottie==0.0.3
+wordcloud==1.9.2

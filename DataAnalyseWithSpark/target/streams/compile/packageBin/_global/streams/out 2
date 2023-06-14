@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/dataanalysewithspark_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/edu[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/edu/efrei[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/edu/efrei/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/scala/DataVisualisationWithScala.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/edu/efrei/scala/DataVisualisationWithScala.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/scala/DataVisualisationWithScala$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/edu/efrei/scala/DataVisualisationWithScala$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/scala/DataVisualisationWithScala$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/edu/efrei/scala/DataVisualisationWithScala$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataVisualisationWithScala.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/DataVisualisationWithScala.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataVisualisationWithScala$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/DataVisualisationWithScala$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataVisualisationWithScala$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes/DataVisualisationWithScala$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

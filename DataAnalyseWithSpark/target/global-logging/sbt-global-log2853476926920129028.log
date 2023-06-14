@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(6580dd67-e1ab-4107-ae80-08c9674363f5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/src/main/scala/edu/efrei/scala/DataVisualisationWithScala.scala:266:7: word is already defined as value word[0m
+[0m[[0m[31merror[0m] [0m[0m  val word = wordcountAlert.select("word").as[String].collect().toList[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/src/main/scala/edu/efrei/scala/DataVisualisationWithScala.scala:267:7: countOcc is already defined as value countOcc[0m
+[0m[[0m[31merror[0m] [0m[0m  val countOcc = wordcountAlert.select("count").as[Long].collect().toList[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/src/main/scala/edu/efrei/scala/DataVisualisationWithScala.scala:268:7: tracew is already defined as value tracew[0m
+[0m[[0m[31merror[0m] [0m[0m  val tracew = Scatter([0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/src/main/scala/edu/efrei/scala/DataVisualisationWithScala.scala:274:7: dataw is already defined as value dataw[0m
+[0m[[0m[31merror[0m] [0m[0m  val dataw = Seq(tracew)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/suveta/DataEngProjetGit/DataEngineeringProject/DataAnalyseWithSpark/src/main/scala/edu/efrei/scala/DataVisualisationWithScala.scala:275:7: layoutw is already defined as value layoutw[0m
+[0m[[0m[31merror[0m] [0m[0m  val layoutw = Layout(title = "Occurence of word", xaxis = Axis(title = "word"), yaxis = Axis(title = "occurence"))[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 8 seconds, 5.679 (76,4%) were spent in GC. [Heap: 0,61GB free of 1,00GB, max 1,00GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed 28 mai 2023 à 22:41:48[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

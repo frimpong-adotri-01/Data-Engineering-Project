@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/streamprocessingwithspark_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/classes/edu[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/classes/edu/efrei[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/m1bdml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/classes/edu/efrei/m1bdml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/m1bdml/SparkStreaming.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/classes/edu/efrei/m1bdml/SparkStreaming.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/m1bdml/SparkStreaming$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/classes/edu/efrei/m1bdml/SparkStreaming$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu/efrei/m1bdml/SparkStreaming$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/michel-angeadotri/Documents/github/DataEngineeringProject/StreamProcessingWithSpark/target/scala-2.12/classes/edu/efrei/m1bdml/SparkStreaming$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
